@@ -4,7 +4,6 @@ const person = [
     {name:"Duy", age:"25"},
     {name:"Minh", age:"24"},
 ];
-const names = person.map((element)=>element.name);
-const ages = person.map((element)=>element.age);
-console.log(names);
-console.log(ages);
+
+const p = person.map(({name, age}) => `Name: ${name}, Age: ${age}\n`);
+console.log(`Mảng đã trích xuất\n ` + p);

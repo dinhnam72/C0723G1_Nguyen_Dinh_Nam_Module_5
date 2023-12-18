@@ -4,11 +4,11 @@ function mess(...nameList) {
     if (nameList.length===0){
         return "Welcome!";
     }else {
-        const name1=nameList.join(' , ');
-        return `Welcome,${name1}!`  ;
+        const names=nameList.join(' , ');
+        return `Welcome,${names}!`  ;
     }
 }
 // const names = ["Hoa","Lài","Nhung"];
 // console.log(mess(names))
-const names1= mess();
-console.log(names1)
+const name= mess();
+console.log(name)
