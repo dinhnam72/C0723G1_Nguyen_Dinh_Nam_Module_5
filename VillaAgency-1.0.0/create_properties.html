@@ -1,10 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <title>Furama</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
 <body>
+<div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav ">
+                    <!-- ***** Logo  ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="https://furamavietnam.com/wp-content/uploads/2018/08/logo@2x.png"
+                             alt="logo" width="63" height="90" >
+                    </a>
 
+                    <!-- ***** Menu  ***** -->
+                    <ul class="nav ">
+                        <li><a href="index.html" class="active">Trang Chủ</a></li>
+                        <li><a href="properties.html">Dịch Vụ</a></li>
+                        <li><a href="#">Khách Hàng</a></li>
+                        <li><a href="contact.html">Liên Hệ</a></li>
+                        <li><a href="#"><i class="fa fa-calendar"></i> Lịch thăm quan</a></li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
+
+
+<div class="container mt-5">
+    <h2 class="mb-4" style="text-align: center">Thêm mới</h2>
+
+    <!-- Form to add new resort -->
+    <form>
+        <div class="mb-3">
+            <label for="service" class="form-label">Dịch vụ</label>
+            <select class="form-select" id="service" aria-label="Select Fruit">
+                <option value="1">Villa</option>
+                <option value="2">House</option>
+                <option value="3">Room</option>
+
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="resortName" class="form-label">Tên dịch vụ</label>
+            <input type="text" class="form-control" id="resortName" placeholder="Tên dịch vụ">
+        </div>
+
+
+        <div class="mb-3">
+            <label for="area" class="form-label">Diện tích</label>
+            <input type="number" class="form-control" id="area" placeholder="Diện tích">
+        </div>
+
+        <div class="mb-3">
+            <label for="rentalCosts" class="form-label">Chi phí thuê</label>
+            <input type="number" class="form-control" id="rentalCosts" placeholder="Chi phí thuê">
+        </div>
+
+        <div class="mb-3">
+            <label for="people" class="form-label">Số người</label>
+            <input type="number" class="form-control" id="people" placeholder="Số người">
+        </div>
+        <div class="mb-3">
+            <label for="rent" class="form-label">Kiểu thuê</label>
+            <select class="form-select" id="rent" aria-label="Select Fruit">
+                <option value="1">Năm</option>
+                <option value="2">Tháng</option>
+                <option value="3">Ngày</option>
+                <option value="4">Giờ</option>
+            </select>
+        </div>
+
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-success">Thêm mới</button>
+    </form>
+</div>
+<footer>
+    <div class="container">
+        <div class="col-lg-8">
+            <p>Copyright © 2018 Villa Agency Co., Ltd. All rights reserved.
+
+                Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution: <a
+                        href="https://themewagon.com">ThemeWagon</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/isotope.min.js"></script>
+<script src="assets/js/owl-carousel.js"></script>
+<script src="assets/js/counter.js"></script>
+<script src="assets/js/custom.js"></script>
 </body>
 </html>
