@@ -5,5 +5,6 @@ const person = [
     {name:"Minh", age:"24"},
 ];
 
-const p = person.map(({name, age}) => `Name: ${name}, Age: ${age}\n`);
-console.log(`Mảng đã trích xuất\n ` + p);
+for (const { name, age } of person) {
+    console.log(`Name: ${name}, Age: ${age}`);
+}
