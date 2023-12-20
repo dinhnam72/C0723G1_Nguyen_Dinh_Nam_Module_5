@@ -1,10 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <title>Create Customer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/templatemo-villa-agency.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
 <body>
-$END$
+<div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav ">
+                    <!-- ***** Logo  ***** -->
+                    <a href="../home/index.html" class="logo">
+                        <img src="https://furamavietnam.com/wp-content/uploads/2018/08/logo@2x.png"
+                             alt="logo" width="63" height="90" >
+                    </a>
+
+                    <!-- ***** Menu  ***** -->
+                    <ul class="nav ">
+                        <li><a href="../home/index.html" class="active">Trang Chủ</a></li>
+                        <li><a href="properties.html">Dịch Vụ</a></li>
+                        <li><a href="list_customer.html">Khách Hàng</a></li>
+                        <li><a href="../contact.html">Liên Hệ</a></li>
+                        <li><a href="#"><i class="fa fa-calendar"></i> Lịch thăm quan</a></li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
+<div class="page-heading header-text">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <span class="breadcrumb"><a href="#">Trang Chủ</a>  /  Thêm mới</span>
+                <h3>Thêm mới khách hàng</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-4">
+    <!-- Form to add new customer -->
+    <form>
+        <div class="mb-1">
+            <label for="name" class="form-label">Họ và tên (<span style="color: red">*</span>)</label>
+            <input type="text" class="form-control" id="name" placeholder="Nhập tên">
+        </div>
+
+
+        <div class="mb-1">
+            <label for="dob" class="form-label">Ngày sinh (<span style="color: red">*</span>)</label>
+            <input type="date" class="form-control" id="dob" >
+        </div>
+
+        <div class="mb-1">
+            <label for="gender" class="form-label">Giới tính (<span style="color: red">*</span>)</label>
+            <select class="form-select" id="gender" aria-label="Select Fruit">
+                <option value="1">Nam</option>
+                <option value="2">Nữ</option>
+            </select>
+        </div>
+
+        <div class="mb-1">
+            <label for="identification" class="form-label">CCCD (<span style="color: red">*</span>)</label>
+            <input type="number" class="form-control" id="identification" placeholder="Nhập cccd">
+        </div>
+        <div class="mb-1">
+            <label for="telephone" class="form-label">Số điện thoại (<span style="color: red">*</span>)</label>
+            <input type="number" class="form-control" id="telephone" placeholder="Nhập số điện thoại">
+        </div>
+        <div class="mb-1">
+            <label for="email" class="form-label">Email (<span style="color: red">*</span>)</label>
+            <input type="email" class="form-control" id="email" placeholder="Nhập email">
+        </div>
+        <div class="mb-1">
+            <label for="address" class="form-label">Địa chỉ (<span style="color: red">*</span>)</label>
+            <textarea type="text" class="form-control" id="address" placeholder="Nhập địa chỉ"></textarea>
+        </div>
+        <div class="mb-1">
+            <label for="type" class="form-label">Loại khách</label>
+            <select class="form-select" id="type" aria-label="Select Fruit">
+                <option value="1">Đồng</option>
+                <option value="2">Bạc</option>
+                <option value="3">Vàng</option>
+                <option value="4">bạch Kim</option>
+            </select>
+        </div>
+
+
+        <!-- Submit Button -->
+        <div class="create mt-5 customer">
+            <button type="submit" >Thêm mới</button>
+        </div>
+    </form>
+</div>
+<footer>
+    <div class="container">
+        <div class="col-lg-8">
+            <p>Copyright © 2018 Villa Agency Co., Ltd. All rights reserved.
+
+                Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution: <a
+                        href="https://themewagon.com">ThemeWagon</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/js/isotope.min.js"></script>
+<script src="../assets/js/owl-carousel.js"></script>
+<script src="../assets/js/counter.js"></script>
+<script src="../assets/js/custom.js"></script>
 </body>
 </html>
