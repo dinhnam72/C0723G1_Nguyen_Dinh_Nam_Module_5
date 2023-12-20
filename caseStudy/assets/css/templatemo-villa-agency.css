@@ -201,7 +201,8 @@ body {
   border-radius: 25px;
   transition: all .3s;
 }
-.main-button a {
+.main-button a,
+.create button{
   color: #fff;
   background-color: #1e1e1e;
 }
@@ -210,14 +211,20 @@ body {
   color: #1e1e1e;
 }
 
-.main-button a:hover {
-  background-color: #ffc720;
+.main-button a:hover,
+.create button:hover{
+
+  background-color: #f35525;
   color: #fff;
 }
 .main-button button:hover {
   background-color: red;
   color: #fff;
 }
+
+/*them moi*/
+
+
 /* 
 ---------------------------------------------
 Pre-loader Style
@@ -760,12 +767,15 @@ Banner Style
   background-image: url(../images/banner-01.jpg);
 }
 
+
 .main-banner .item-2 {
   background-image: url(../images/banner-02.jpg);
+
 }
 
 .main-banner .item-3 {
   background-image: url(../images/banner-03.jpg);
+
 }
 
 .main-banner .item span.category {
@@ -796,7 +806,7 @@ Banner Style
 
 .main-banner .owl-dots {
   position: absolute;
-  bottom: 60px;
+  bottom: 100px;
   left: 20%;
 }
 
@@ -1435,7 +1445,7 @@ Properties Style
   margin: 5px 8px;
 }
 
-.properties ul.properties-filter li a {
+.properties ul.properties-filter li a  {
   display: inline-block;
   text-align: center;
   font-size: 15px;
@@ -1448,10 +1458,12 @@ Properties Style
   transition: all .3s;
 }
 
+
 .properties ul.properties-filter li a.is_active {
   background-color: #f35525;
   color: #fff;
 }
+
 
 .properties ul.properties-filter li a.is_active:hover {
   color: #fff;
@@ -1460,6 +1472,7 @@ Properties Style
 .properties ul.properties-filter li a:hover {
   color: #f35525;
 }
+
 
 .properties ul.pagination {
   margin-top: 50px;
