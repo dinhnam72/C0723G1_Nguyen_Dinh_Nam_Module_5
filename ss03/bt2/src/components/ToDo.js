@@ -29,12 +29,11 @@ class ToDo extends Component {
     }
     handleAddItem = () => {
         if (this.state.item.task !=="" && this.state.item.task) {
-            this.setState(
-                {
-                    ...this.state,
-                    listTask: [...this.state.listTask, this.state.item],
-                    keyCounter: this.state.keyCounter + 1
-                })
+            this.setState(prevState => ({
+                ...prevState,
+                listTask: [...prevState.listTask, prevState.item],
+                keyCounter: prevState.keyCounter + 1
+            }));
         }else {
             alert("Vui lòng nhập công việc");
         }
