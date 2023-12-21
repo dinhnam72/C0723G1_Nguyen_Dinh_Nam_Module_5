@@ -20,8 +20,8 @@ function FromMedical() {
         if (!form.name) {
             errors.name = "Không được để trống";
         }
-        if (!form.cmnd) {
-            errors.cmnd = "Không được để trống";
+        if (!form.idCard) {
+            errors.idCard = "Không được để trống";
         }
         if (!form.dob) {
             errors.dob = "Không được để trống";
@@ -76,10 +76,10 @@ function FromMedical() {
                             <p className="error">{errors.name}</p>
                         </div>
 
-                        <div className={`custom-input ${errors.cmnd ? "custom-input-error" : ""}`}>
+                        <div className={`custom-input ${errors.idCard ? "custom-input-error" : ""}`}>
                             <label>Số hộ chiếu/CMND</label>
-                            <input type="number" name="cmnd" value={form.cmnd || ""} onChange={handleChange}/>
-                            <p className="error">{errors.cmnd}</p>
+                            <input type="number" name="idCard" value={form.idCard || ""} onChange={handleChange}/>
+                            <p className="error">{errors.idCard}</p>
                         </div>
                         <div className={`custom-input ${errors.dob ? "custom-input-error" : ""}`}>
                             <label>Năm sinh</label>
