@@ -19,13 +19,14 @@ class ToDo extends Component {
         };
     }
 
-    handleChange = (event) => {
-        this.setState({
+     handleChange = (event) => {
+        this.setState(prevState=>({
+            ...prevState,
             item: {
                 id: this.state.keyCounter,
                 task: event.target.value
             },
-        });
+        }));
     }
     handleAddItem = () => {
         if (this.state.item.task !=="" && this.state.item.task) {
