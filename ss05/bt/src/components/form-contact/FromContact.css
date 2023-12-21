@@ -1,0 +1,19 @@
+label {
+    display: block;
+}
+
+.custom-input,textarea {
+    padding-bottom: 2%;
+}
+
+
+.custom-input-error input,
+.custom-input-error textarea{
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    margin: 0;
+}
