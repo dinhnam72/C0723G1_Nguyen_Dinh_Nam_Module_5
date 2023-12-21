@@ -223,7 +223,12 @@ body {
 }
 
 /*them moi*/
-
+.customer {
+  text-align:center;
+}
+.customer h2{
+  text-align:center;
+}
 
 /* 
 ---------------------------------------------
@@ -1396,12 +1401,13 @@ Page Header Style
 --------------------------------------------- 
 */
 
+
 .page-heading {
   background-image: url(../images/page-heading-bg.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 110px 0px;
+  padding: 50px 0px;
   text-align: center;
 }
 
