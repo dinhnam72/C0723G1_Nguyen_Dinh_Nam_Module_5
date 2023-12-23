@@ -20,18 +20,18 @@ function FormContact() {
     function handleValidate() {
         const errors = {};
         if (!form.name) {
-            errors.name = "Không được để trống";
+            errors.name = "Tên không được để trống";
         }
         if (!form.email) {
-            errors.email = "Không được để trống";
+            errors.email = "Email không được để trống";
         } else if (!REGEX.email.test(form.email)) {
             errors.email = "Email sai định dạng!";
         }
         if (!form.phone) {
-            errors.phone = "Không được để trống";
+            errors.phone = "Số điện thoại không được để trống";
         }
         if (!form.message) {
-            errors.message = "Không được để trống";
+            errors.message = "Lời nhắn không được để trống";
         }
         return errors;
     }
