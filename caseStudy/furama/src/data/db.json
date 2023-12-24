@@ -1,0 +1,1000 @@
+{
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Member"
+    },
+    {
+      "id": 2,
+      "name": "Sliver"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Platinum"
+    },
+    {
+      "id": 5,
+      "name": "Diamond"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hoàng Thái Sơn",
+      "dateOfBirth": "1998-12-21",
+      "gender": 1,
+      "idCard": "048929988295",
+      "phoneNumber": "0911111111",
+      "email": "sonht@gmail.com",
+      "address": "23 Ngô Quyền, TP. Đà Nẵng",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      },
+      "customerTypes": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Trịnh Đình Tuấn",
+      "dateOfBirth": "1992-11-21",
+      "gender": 1,
+      "idCard": "046808088993",
+      "phoneNumber": "0909393939",
+      "email": "tuantd@gmail.com",
+      "address": "53 Ngô Quyền, TP. Huế, Thừa Thiên Huế",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Trần Tứ Xuyên",
+      "dateOfBirth": "1997-12-23",
+      "gender": 1,
+      "idCard": "048089888991",
+      "phoneNumber": "0965757575",
+      "email": "xuyentt@gmail.com",
+      "address": "217 Nguyễn Thị Minh Khai, TP. Đà Nẵng",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bùi Thanh Tâm",
+      "dateOfBirth": "1993-05-24",
+      "gender": 0,
+      "idCard": "046109088289",
+      "phoneNumber": "0959595959",
+      "email": "tambt@gmail.com",
+      "address": "53 Nguyễn Văn Cừ, TP. Huế, Thừa Thiên Huế",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Vũ Văn Thông",
+      "dateOfBirth": "1998-11-26",
+      "gender": 1,
+      "idCard": "048909088899",
+      "phoneNumber": "0991919191",
+      "email": "thongvv@gmail.com",
+      "address": "76 Hùng Vương, TP. Đà Nẵng",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Bùi Thanh Quang",
+      "dateOfBirth": "1998-12-26",
+      "gender": 1,
+      "idCard": "048089888895",
+      "phoneNumber": "0967676767",
+      "email": "quangbt@gmail.com",
+      "address": "90 Nguyễn Tất Thành, TP. Đà Nẵng",
+      "customerType": {
+        "id": 4,
+        "name": "Platinum"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Nguyễn Hồng Tiên",
+      "dateOfBirth": "1998-05-30",
+      "gender": 0,
+      "idCard": "044289888387",
+      "phoneNumber": "0907373737",
+      "email": "tiennh@gmail.com",
+      "address": "56 Nguyễn Văn Cừ, TP. Quảng Trạch, Quảng Bình",
+      "customerType": {
+        "id": 5,
+        "name": "Diamond"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nguyễn Thị Hiền",
+      "dateOfBirth": "1999-11-20",
+      "gender": 0,
+      "idCard": "048109088290",
+      "phoneNumber": "0972727272",
+      "email": "hiennt@gmail.com",
+      "address": "28 Nguyễn Huệ, TP. Đà Nẵng",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Nguyễn Mạnh Hà",
+      "dateOfBirth": "2000-01-22",
+      "gender": 1,
+      "idCard": "045109088288",
+      "phoneNumber": "0946464646",
+      "email": "hamh@gmail.com",
+      "address": "38 Nguyễn Văn Cừ, TP. Đông Hà, Quảng Trị",
+      "customerType": {
+        "id": 4,
+        "name": "Platinum"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Hà Văn Duy",
+      "dateOfBirth": "1998-04-04",
+      "gender": 1,
+      "idCard": "049909088893",
+      "phoneNumber": "0980808080",
+      "email": "duyhv@gmail.com",
+      "address": "124 Nguyễn Thị Minh Khai, TP. Điện Bàn, Quảng Nam",
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Vũ Đức Anh",
+      "dateOfBirth": "2001-07-05",
+      "gender": 1,
+      "idCard": "048289888391",
+      "phoneNumber": "0992929292",
+      "email": "anhvd@gmail.com",
+      "address": "29 Trưng Nữ Vương, TP. Đà Nẵng",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Trần Văn Tố",
+      "dateOfBirth": "1994-12-11",
+      "gender": 1,
+      "idCard": "049080288294",
+      "phoneNumber": "0970707070",
+      "email": "totv@gmail.com",
+      "address": "78 Nguyễn Văn Linh, TP. Tam Kỳ, Quảng Nam",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Nguyễn Chí Thiện",
+      "dateOfBirth": "1998-12-22",
+      "gender": 1,
+      "idCard": "048129988493",
+      "phoneNumber": "0983838383",
+      "email": "thiennc@gmail.com",
+      "address": "245 Điện Biên Phủ, TP. Đà Nẵng",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Nguyễn Mạnh Dũng",
+      "dateOfBirth": "1995-01-09",
+      "gender": 1,
+      "idCard": "046129988492",
+      "phoneNumber": "0928282828",
+      "email": "dungnm@gmail.com",
+      "address": "365 Hồ Chí Minh, TP. Huế, Thừa Thiên Huế",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Lê Duy Khánh",
+      "dateOfBirth": "2000-12-21",
+      "gender": 1,
+      "idCard": "044129988489",
+      "phoneNumber": "0917171717",
+      "email": "khanhld@gmail.com",
+      "address": "20 Phan Đình Phùng, TP. Quảng Ninh, Quảng Bình",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Nguyễn Ngọc Dung",
+      "dateOfBirth": "1993-09-07",
+      "gender": 0,
+      "idCard": "049929988296",
+      "phoneNumber": "0943434343",
+      "email": "dungnn@gmail.com",
+      "address": "47 Trần Cao Vân, TP. Hội An, Quảng Nam",
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Trần Công Hoàng",
+      "dateOfBirth": "1996-05-22",
+      "gender": 1,
+      "idCard": "045129988491",
+      "phoneNumber": "0925252525",
+      "email": "hoangtc@gmail.com",
+      "address": "89 Ngô Quyền, TP. Quảng Trị, Quảng Trị",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Lê Hoàng Châu",
+      "dateOfBirth": "1991-03-28",
+      "gender": 0,
+      "idCard": "046929988294",
+      "phoneNumber": "0964646464",
+      "email": "chaulh@gmail.com",
+      "address": "24 Lý Thường Kiệt, TP. Huế, Thừa Thiên Huế",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Nguyễn Hoàng Mai",
+      "dateOfBirth": "1990-10-14",
+      "gender": 0,
+      "idCard": "048208088998",
+      "phoneNumber": "0914141414",
+      "email": "mainh@gmail.com",
+      "address": "23 Đống Đa, TP. Đà Nẵng",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Bùi Tuấn Anh",
+      "dateOfBirth": "1997-02-21",
+      "gender": 1,
+      "idCard": "049808088995",
+      "phoneNumber": "0954545454",
+      "email": "anhbt@gmail.com",
+      "address": "28 Phan Châu Trinh, TP. Tam Kỳ, Quảng Nam",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Nguyễn Thị Thùy Linh",
+      "dateOfBirth": "1991-08-23",
+      "gender": 0,
+      "idCard": "048808088991",
+      "phoneNumber": "0971616161",
+      "email": "linhntt@gmail.com",
+      "address": "33 Lý Thái Tổ, TP. Đà Nẵng",
+      "customerType": {
+        "id": 4,
+        "name": "Platinum"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Dương Văn Tư",
+      "dateOfBirth": "1999-12-26",
+      "gender": 1,
+      "idCard": "046080288292",
+      "phoneNumber": "0945454545",
+      "email": "tudv@gmail.com",
+      "address": "56 Trần Hưng Đạo, TP. Huế, Thừa Thiên Huế",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Đỗ Bình Giang",
+      "dateOfBirth": "1998-03-13",
+      "gender": 1,
+      "idCard": "044080288799",
+      "phoneNumber": "0927272727",
+      "email": "giangdb@gmail.com",
+      "address": "24 Nguyễn Du, TP. Đồng Hới, Quảng Bình",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Nguyễn Thành Đạt",
+      "dateOfBirth": "2000-05-29",
+      "gender": 1,
+      "idCard": "045080288291",
+      "phoneNumber": "0953535353",
+      "email": "datnt@gmail.com",
+      "address": "08 Lê Lợi, TP. Đông Hà, Quảng Trị",
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Nguyễn Đình Nhất Trung",
+      "dateOfBirth": "1996-12-17",
+      "gender": 1,
+      "idCard": "048109088286",
+      "phoneNumber": "0901313131",
+      "email": "trungndn@gmail.com",
+      "address": "98 Hồ Xuân Hương, TP. Đà Nẵng",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Nguyen Thi Minh Khai",
+      "dateOfBirth": "1996-09-06",
+      "gender": 1,
+      "idCard": "048289888387",
+      "phoneNumber": "0995959595",
+      "email": "khaintm@gmail.com",
+      "address": "24 Trần Cao Vân, TP. Đà Nẵng",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Lê Thanh Hải",
+      "dateOfBirth": "2001-08-17",
+      "gender": 1,
+      "idCard": "045929988293",
+      "phoneNumber": "0982828282",
+      "email": "hailt@gmail.com",
+      "address": "75 Lý Thường Kiệt, TP. Quảng Trị, Quảng Trị",
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Nguyễn Khắc Trung",
+      "dateOfBirth": "1993-05-09",
+      "gender": 1,
+      "idCard": "049289888392",
+      "phoneNumber": "0913131313",
+      "email": "trungnk@gmail.com",
+      "address": "09 Quang Trung, TP. Thăng Bình, Quảng Nam",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Phạm Minh Kha",
+      "dateOfBirth": "2001-11-19",
+      "gender": 1,
+      "idCard": "046909088891",
+      "phoneNumber": "0969696969",
+      "email": "khapm@gmail.com",
+      "address": "11 Trần Phú, TP. Huế, Thừa Thiên Huế",
+      "customerType": {
+        "id": 5,
+        "name": "Diamond"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Vũ Thái Dương",
+      "dateOfBirth": "1989-07-07",
+      "gender": 1,
+      "idCard": "044929988292",
+      "phoneNumber": "0976666666",
+      "email": "duongvt@gmail.com",
+      "address": "43 Trần Quốc Hoàn, TP. Đồng Hới, Quảng Bình",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Chung Thanh Bình",
+      "dateOfBirth": "2000-01-01",
+      "gender": 0,
+      "idCard": "079028081345",
+      "phoneNumber": "0976245862",
+      "email": "binhct@gmail.com",
+      "address": "58 Cách Mạng Tháng Tám, Quận 1, TP. Hồ Chí Minh",
+      "customerType": {
+        "id": 4,
+        "name": "Platinum"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Đào Huy Điền",
+      "dateOfBirth": "1997-12-05",
+      "gender": 1,
+      "idCard": "079008091236",
+      "phoneNumber": "0935786942",
+      "email": "diendh@gmail.com",
+      "address": "25 Võ Văn Tần, Quận 3, TP. Hồ Chí Minh",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Lê Hữu Đỉnh",
+      "dateOfBirth": "1997-09-23",
+      "gender": 1,
+      "idCard": "079028080987",
+      "phoneNumber": "0905681545",
+      "email": "dinhlh@gmail.com",
+      "address": "76 Nguyễn Chí Thanh, Quận 5, TP. Hồ Chí Minh",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Nguyễn Hữu Nghĩa",
+      "dateOfBirth": "2000-10-03",
+      "gender": 1,
+      "idCard": "079018082098",
+      "phoneNumber": "0762962558",
+      "email": "nghianh@gmail.com",
+      "address": "13 Nguyễn Thị Minh Khai, Quận 3, TP. Hồ Chí Minh",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Vũ Anh Long",
+      "dateOfBirth": "1998-06-11",
+      "gender": 1,
+      "idCard": "079008081349",
+      "phoneNumber": "0781588556",
+      "email": "longva@gmail.com",
+      "address": "90 Điện Biên Phủ, Quận Bình Thạnh, TP. Hồ Chí Minh",
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Lê Ngọc Hải",
+      "dateOfBirth": "1999-12-04",
+      "gender": 1,
+      "idCard": "079018080980",
+      "phoneNumber": "0905364888",
+      "email": "hailn@gmail.com",
+      "address": "118 Phạm Ngũ Lão, Quận 10, TP. Hồ Chí Minh",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      }
+    },
+    {
+      "name": "Trần Tứ Xuyên",
+      "dateOfBirth": "1997-12-23",
+      "gender": 1,
+      "idCard": "048089888991",
+      "phoneNumber": "0965757575",
+      "email": "xuyentt@gmail.com",
+      "address": "217 Nguyễn Thị Minh Khai, TP. Đà Nẵng",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      },
+      "id": 37
+    },
+    {
+      "name": "Trần Tứ Xuyên",
+      "dateOfBirth": "1997-12-23",
+      "gender": 1,
+      "idCard": "048089888991",
+      "phoneNumber": "0965757575",
+      "email": "xuyentt@gmail.com",
+      "address": "217 Nguyễn Thị Minh Khai, TP. Đà Nẵng",
+      "customerType": {
+        "id": 2,
+        "name": "Sliver"
+      },
+      "id": 38
+    },
+    {
+      "name": "Nguyễn Đình Nam ",
+      "dateOfBirth": "1998-11-01",
+      "gender": 1,
+      "idCard": "012345698712",
+      "phoneNumber": "0783495322",
+      "email": "khanh.nhat.365@gmail.com",
+      "address": "11 Quang Dũng, phường Vĩnh Trung, quận Thanh Khê",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      },
+      "id": 39
+    },
+    {
+      "name": "Nguyễn Nhật Minh",
+      "dateOfBirth": "1998-07-01",
+      "gender": 1,
+      "idCard": "012345698712",
+      "phoneNumber": "0783495322",
+      "email": "khanh.nhat.365@gmail.com",
+      "address": "11 Quang Dũng, phường Vĩnh Trung, quận Thanh Khê",
+      "customerType": {
+        "id": 1,
+        "name": "Member"
+      },
+      "id": 40
+    }
+  ],
+  "facilityType": [
+    {
+      "id": 1,
+      "name": "Villa"
+    },
+    {
+      "id": 2,
+      "name": "House"
+    },
+    {
+      "id": 3,
+      "name": "Room"
+    }
+  ],
+  "accompaniedServices": [
+    {
+      "id": 1,
+      "name": "Massage",
+      "unit": "Person",
+      "price": 500000
+    },
+    {
+      "id": 2,
+      "name": "Karaoke",
+      "unit": "Hours",
+      "price": 300000
+    },
+    {
+      "id": 3,
+      "name": "Food",
+      "unit": "Portion",
+      "price": 150000
+    },
+    {
+      "id": 4,
+      "name": "Drinks",
+      "unit": "Portion",
+      "price": 50000
+    },
+    {
+      "id": 5,
+      "name": "Car rental",
+      "unit": "Person",
+      "price": 70000
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "name": "SEA VIEW SUITE",
+      "area": "85.8",
+      "rentalCosts": "6800000",
+      "capacity": "2",
+      "rentalType": "day",
+      "pathImage": "/images/facilities/1-Ocean-Suite-Feature-768x497.jpg",
+      "freeServices": [
+        "Have breakfast"
+      ],
+      "facilityType": {
+        "id": 3,
+        "name": "Room"
+      },
+      "accompaniedServices": [
+        {
+          "id": 4,
+          "name": "Drinks",
+          "unit": "Portion",
+          "price": 50000
+        },
+        {
+          "id": 3,
+          "name": "Food",
+          "unit": "Portion",
+          "price": 150000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "STUDIO SUITE SEA VIEW",
+      "area": "40.1",
+      "rentalCosts": "4500000",
+      "capacity": "2",
+      "rentalType": "day",
+      "pathImage": "/images/facilities/2-Ocean-Studio-Suite-F-768x497.jpg",
+      "freeServices": [
+        "Have breakfast"
+      ],
+      "facilityType": {
+        "id": 3,
+        "name": "Room"
+      },
+      "accompaniedServices": [
+        {
+          "id": 2,
+          "name": "Karaoke",
+          "unit": "Hours",
+          "price": 300000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "DELUXE ROOM SEA VIEW",
+      "area": "43.7",
+      "rentalCosts": "5700000",
+      "capacity": "2",
+      "rentalType": "day",
+      "pathImage": "/images/facilities/3-Ocean-Deluxe-2-450x291.jpg",
+      "freeServices": [
+        "Have breakfast"
+      ],
+      "facilityType": {
+        "id": 3,
+        "name": "Room"
+      },
+      "accompaniedServices": [
+        {
+          "id": 2,
+          "name": "Karaoke",
+          "unit": "Hours",
+          "price": 300000
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SUPERIOR LAKE VIEW ROOM",
+      "area": "40.1",
+      "rentalCosts": "4200000",
+      "capacity": "4",
+      "rentalType": "day",
+      "pathImage": "/images/facilities/4-Lagoon-Superior-twin-bed-F-768x497.jpg",
+      "freeServices": [
+        "Have breakfast"
+      ],
+      "facilityType": {
+        "id": 3,
+        "name": "Room"
+      },
+      "accompaniedServices": [
+        {
+          "id": 2,
+          "name": "Karaoke",
+          "unit": "Hours",
+          "price": 300000
+        },
+        {
+          "id": 3,
+          "name": "Food",
+          "unit": "Portion",
+          "price": 150000
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "SUPERIOR ROOM GARDEN VIEW",
+      "area": "40.1",
+      "rentalCosts": "4200000",
+      "capacity": "4",
+      "rentalType": "day",
+      "pathImage": "/images/facilities/5-Garden-Superior-TwinBed-1-F-768x497.jpg",
+      "freeServices": [
+        "Have breakfast"
+      ],
+      "facilityType": {
+        "id": 3,
+        "name": "Room"
+      },
+      "accompaniedServices": [
+        {
+          "id": 2,
+          "name": "Karaoke",
+          "unit": "Hours",
+          "price": 300000
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "DELUXE ROOM GARDEN VIEW",
+      "area": "43.7",
+      "rentalCosts": "4800000",
+      "capacity": "4",
+      "rentalType": "day",
+      "pathImage": "/images/facilities/6-Garden-Deluxe-5-450x291.jpg",
+      "freeServices": [
+        "Have breakfast"
+      ],
+      "facilityType": {
+        "id": 3,
+        "name": "Room"
+      },
+      "accompaniedServices": [
+        {
+          "id": 2,
+          "name": "Karaoke",
+          "unit": "Hours",
+          "price": 300000
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "PRESIDENTIAL SUITE",
+      "area": "130",
+      "rentalCosts": "12000000",
+      "capacity": "2",
+      "rentalType": "day",
+      "pathImage": "/images/facilities/7-Presidential-Suite-F-768x497.jpg",
+      "freeServices": [
+        "Have breakfast"
+      ],
+      "facilityType": {
+        "id": 3,
+        "name": "Room"
+      },
+      "accompaniedServices": [
+        {
+          "id": 2,
+          "name": "Karaoke",
+          "unit": "Hours",
+          "price": 300000
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "SEA VIEW VILLA WITH PRIVATE SWIMMING POOL",
+      "area": "900",
+      "rentalCosts": "25000000",
+      "capacity": "8",
+      "rentalType": "day",
+      "pathImage": "/images/facilities/8-Villas_Beach_Pool_Villas-_Exterior-1-F-768x497.jpg",
+      "roomStandards": "Superior",
+      "otherUtilities": [
+        "Elevator",
+        "Hairdryer",
+        "Television",
+        "Money safe"
+      ],
+      "poolArea": 40,
+      "numberFloor": 2,
+      "facilityType": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "accompaniedServices": [
+        {
+          "id": 2,
+          "name": "Karaoke",
+          "unit": "Hours",
+          "price": 300000
+        },
+        {
+          "id": 4,
+          "name": "Drinks",
+          "unit": "Portion",
+          "price": 50000
+        },
+        {
+          "id": 1,
+          "name": "Massage",
+          "unit": "Person",
+          "price": 500000
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "GARDEN VIEW VILLA WITH PRIVATE POOL",
+      "area": "320",
+      "rentalCosts": "16000000",
+      "capacity": "6",
+      "rentalType": "day",
+      "pathImage": "/images/facilities/9-Villas_Pool_Villas-F-768x497.jpg",
+      "roomStandards": "Suite",
+      "otherUtilities": [
+        "Elevator",
+        "Hairdryer",
+        "Television",
+        "Money safe"
+      ],
+      "poolArea": 40,
+      "numberFloor": 2,
+      "facilityType": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "accompaniedServices": [
+        {
+          "id": 2,
+          "name": "Karaoke",
+          "unit": "Hours",
+          "price": 300000
+        },
+        {
+          "id": 4,
+          "name": "Drinks",
+          "unit": "Portion",
+          "price": 50000
+        },
+        {
+          "id": 3,
+          "name": "Food",
+          "unit": "Portion",
+          "price": 150000
+        }
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "id": "1",
+      "contractCode": "HD-0001",
+      "startDate": "2020-12-08",
+      "endDate": "2020-12-08",
+      "deposit": 500000,
+      "totalPayment": 5000000
+    },
+    {
+      "id": "2",
+      "contractCode": "HD-0002",
+      "startDate": "2020-07-14",
+      "endDate": "2020-07-21",
+      "deposit": "200000",
+      "totalPayment": 4000000
+    },
+    {
+      "id": "3",
+      "contractCode": "HD-0003",
+      "startDate": "2021-03-15",
+      "endDate": "2021-03-17",
+      "deposit": "50000",
+      "totalPayment": 1500000
+    },
+    {
+      "id": "4",
+      "contractCode": "HD-0004",
+      "startDate": "2021-01-14",
+      "endDate": "2021-01-18",
+      "deposit": 120000,
+      "totalPayment": 2500000
+    },
+    {
+      "id": "5",
+      "contractCode": "HD-0005",
+      "startDate": "2021-07-14",
+      "endDate": "2021-07-15",
+      "deposit": "0",
+      "totalPayment": 1000000
+    },
+    {
+      "id": "6",
+      "contractCode": "HD-0006",
+      "startDate": "2021-06-01",
+      "endDate": "2021-06-03",
+      "deposit": "0",
+      "totalPayment": 1500000
+    },
+    {
+      "id": "7",
+      "contractCode": "HD-0007",
+      "startDate": "2021-09-02",
+      "endDate": "2021-09-05",
+      "deposit": "100000",
+      "totalPayment": 2000000
+    },
+    {
+      "id": "8",
+      "contractCode": "HD-0008",
+      "startDate": "2021-06-17",
+      "endDate": "2021-06-18",
+      "deposit": "150000",
+      "totalPayment": 1000000
+    },
+    {
+      "id": "9",
+      "contractCode": "HD-0009",
+      "startDate": "2020-11-19",
+      "endDate": "2020-11-19",
+      "deposit": "0",
+      "totalPayment": 500000
+    },
+    {
+      "id": "10",
+      "contractCode": "HD-0010",
+      "startDate": "2021-04-12",
+      "endDate": "2021-04-14",
+      "deposit": "0",
+      "totalPayment": 1500000
+    },
+    {
+      "id": "11",
+      "contractCode": "HD-0011",
+      "startDate": "2021-04-25",
+      "endDate": "2021-04-25",
+      "deposit": "0",
+      "totalPayment": 500000
+    },
+    {
+      "id": "12",
+      "contractCode": "HD-0012",
+      "startDate": "2021-05-25",
+      "endDate": "2021-05-27",
+      "deposit": "0",
+      "totalPayment": 1500000
+    }
+  ]
+}
