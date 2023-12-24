@@ -1,0 +1,36 @@
+{
+  "covid19s": [
+    {
+      "id": 1,
+      "confirmed": 2,
+      "deaths": 3,
+      "recovered": 4,
+      "active": 5,
+      "date": "2020-01-22"
+    },
+    {
+      "id": 2,
+      "confirmed": 2,
+      "deaths": 0,
+      "recovered": 3,
+      "active": 4,
+      "date": "2020-01-23"
+    },
+    {
+      "id": 3,
+      "confirmed": 1,
+      "deaths": 4,
+      "recovered": 3,
+      "active": 5,
+      "date": "2020-01-24"
+    },
+    {
+      "id": 4,
+      "confirmed": 1,
+      "deaths": 4,
+      "recovered": 3,
+      "active": 4,
+      "date": "2020-01-25"
+    }
+  ]
+}
