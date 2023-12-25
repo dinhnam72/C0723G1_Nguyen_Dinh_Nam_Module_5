@@ -433,20 +433,6 @@
       }
     },
     {
-      "id": 30,
-      "name": "Vũ Thái Dương",
-      "dateOfBirth": "1989-07-07",
-      "gender": 1,
-      "idCard": "044929988292",
-      "phoneNumber": "0976666666",
-      "email": "duongvt@gmail.com",
-      "address": "43 Trần Quốc Hoàn, TP. Đồng Hới, Quảng Bình",
-      "customerType": {
-        "id": 1,
-        "name": "Member"
-      }
-    },
-    {
       "id": 31,
       "name": "Chung Thanh Bình",
       "dateOfBirth": "2000-01-01",
@@ -637,13 +623,14 @@
     {
       "id": 1,
       "name": "SEA VIEW SUITE",
-      "area": "85.8",
+      "area": 90,
       "rentalCosts": "6800000",
       "capacity": "2",
       "rentalType": "day",
-      "pathImage": "/images/facilities/1-Ocean-Suite-Feature-768x497.jpg",
+      "pathImage": "/images/property-01.jpg",
       "freeServices": [
-        "Have breakfast"
+        "Have breakfast",
+        "Parking and shuttle"
       ],
       "facilityType": {
         "id": 3,
@@ -669,9 +656,9 @@
       "name": "STUDIO SUITE SEA VIEW",
       "area": "40.1",
       "rentalCosts": "4500000",
-      "capacity": "2",
+      "capacity": 2,
       "rentalType": "day",
-      "pathImage": "/images/facilities/2-Ocean-Studio-Suite-F-768x497.jpg",
+      "pathImage": "/images/property-02.jpg",
       "freeServices": [
         "Have breakfast"
       ],
@@ -695,7 +682,7 @@
       "rentalCosts": "5700000",
       "capacity": "2",
       "rentalType": "day",
-      "pathImage": "/images/facilities/3-Ocean-Deluxe-2-450x291.jpg",
+      "pathImage": "/images/property-03.jpg",
       "freeServices": [
         "Have breakfast"
       ],
@@ -719,7 +706,7 @@
       "rentalCosts": "4200000",
       "capacity": "4",
       "rentalType": "day",
-      "pathImage": "/images/facilities/4-Lagoon-Superior-twin-bed-F-768x497.jpg",
+      "pathImage": "/images/property-04.jpg",
       "freeServices": [
         "Have breakfast"
       ],
@@ -749,7 +736,7 @@
       "rentalCosts": "4200000",
       "capacity": "4",
       "rentalType": "day",
-      "pathImage": "/images/facilities/5-Garden-Superior-TwinBed-1-F-768x497.jpg",
+      "pathImage": "/images/property-05.jpg",
       "freeServices": [
         "Have breakfast"
       ],
@@ -773,7 +760,7 @@
       "rentalCosts": "4800000",
       "capacity": "4",
       "rentalType": "day",
-      "pathImage": "/images/facilities/6-Garden-Deluxe-5-450x291.jpg",
+      "pathImage": "/images/property-06.jpg",
       "freeServices": [
         "Have breakfast"
       ],
@@ -797,7 +784,7 @@
       "rentalCosts": "12000000",
       "capacity": "2",
       "rentalType": "day",
-      "pathImage": "/images/facilities/7-Presidential-Suite-F-768x497.jpg",
+      "pathImage": "/images/deal-01.jpg",
       "freeServices": [
         "Have breakfast"
       ],
@@ -821,7 +808,7 @@
       "rentalCosts": "25000000",
       "capacity": "8",
       "rentalType": "day",
-      "pathImage": "/images/facilities/8-Villas_Beach_Pool_Villas-_Exterior-1-F-768x497.jpg",
+      "pathImage": "/images/deal-02.jpg",
       "roomStandards": "Superior",
       "otherUtilities": [
         "Elevator",
@@ -857,38 +844,30 @@
       ]
     },
     {
-      "id": 9,
-      "name": "GARDEN VIEW VILLA WITH PRIVATE POOL",
-      "area": "320",
-      "rentalCosts": "16000000",
-      "capacity": "6",
+      "name": "STUDIO 3 VILLA",
+      "area": 57.4,
+      "rentalCosts": 1000000,
+      "capacity": 4,
       "rentalType": "day",
-      "pathImage": "/images/facilities/9-Villas_Pool_Villas-F-768x497.jpg",
-      "roomStandards": "Suite",
-      "otherUtilities": [
-        "Elevator",
-        "Hairdryer",
-        "Television",
-        "Money safe"
+      "pathImage": "/images/property-02.jpg",
+      "freeServices": [
+        "",
+        "",
+        "",
+        ""
       ],
-      "poolArea": 40,
-      "numberFloor": 2,
-      "facilityType": {
-        "id": 1,
-        "name": "Villa"
-      },
+      "roomStandards": "Deluxe",
+      "poolArea": 35,
+      "numberFloor": 6,
+      "otherUtilities": [
+        "Elevator"
+      ],
       "accompaniedServices": [
         {
-          "id": 2,
-          "name": "Karaoke",
-          "unit": "Hours",
-          "price": 300000
-        },
-        {
-          "id": 4,
-          "name": "Drinks",
-          "unit": "Portion",
-          "price": 50000
+          "id": 1,
+          "name": "Massage",
+          "unit": "Person",
+          "price": 500000
         },
         {
           "id": 3,
@@ -896,7 +875,12 @@
           "unit": "Portion",
           "price": 150000
         }
-      ]
+      ],
+      "facilityType": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "id": 9
     }
   ],
   "contracts": [

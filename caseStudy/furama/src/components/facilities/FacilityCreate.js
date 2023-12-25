@@ -110,10 +110,10 @@ export function FacilityCreate() {
 
         let status = await facilityService.createFacility(values);
         if (status === 201) {
-            toast.success("Create successfully!");
+            toast.success("Thêm dịch vụ thành công !");
             navigate("/facilities");
         } else {
-            toast.error("Create failed!");
+            toast.error("Thêm thất bại!");
             navigate("/facilities/create");
         }
     }
@@ -205,11 +205,11 @@ export function FacilityCreate() {
                                                 name="rentalType"
                                                 id="rentalType"
                                             >
-                                                <option defaultValue="">--Select--</option>
-                                                <option value="hours">Hours</option>
-                                                <option value="day">Day</option>
-                                                <option value="month">Month</option>
-                                                <option value="year">Year</option>
+                                                <option defaultValue="">--Lựa chọn--</option>
+                                                <option value="hours">Giờ</option>
+                                                <option value="day">Ngày</option>
+                                                <option value="month">Tháng</option>
+                                                <option value="year">Năm</option>
                                             </Field>
                                             <ErrorMessage name="rentalType" component="div"
                                                           className="mt-2 form-text text-danger"
@@ -301,16 +301,16 @@ export function FacilityCreate() {
                                                             name="roomStandards"
                                                             id="roomStandards"
                                                         >
-                                                            <option value="Superior">Superior</option>
-                                                            <option value="Deluxe">Deluxe</option>
-                                                            <option value="Suite">Suite</option>
-                                                            <option value="Presidential">President</option>
+                                                            <option value="Superior">Thượng đẳng</option>
+                                                            <option value="Deluxe">Sang Trọng</option>
+                                                            <option value="Suite">Thượng hạng</option>
+                                                            <option value="Presidential">Tổng thống</option>
                                                         </Field>
                                                     </div>
                                                 </div>
                                                 <div className="row mb-3">
                                                     <label className="form-label col-sm-3">
-                                                         Khác
+                                                        Khác
                                                     </label>
                                                     <div className="col-sm-9">
                                                         {/*<FieldArray name="otherUtilities">*/}

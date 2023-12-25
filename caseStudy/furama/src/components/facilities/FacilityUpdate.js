@@ -79,20 +79,20 @@ export function FacilityUpdate(){
             .integer("Dung lượng phải là số nguyên"),
         rentalType: Yup.string()
             .required("Vui lòng nhập loại hình thuê"),
-        poolArea: formatStyle.id !== 3 ?
-            Yup.number()
-                .required("Vui lòng nhập diện tích hồ bơi")
-                .min(20, "Diện tích bể bơi phải lớn hơn 20")
-            :
-            Yup.number().notRequired(),
-        numberFloor:
-            formatStyle.id !== 3 ?
-                Yup.number()
-                    .required("Vui lòng nhập số tầng")
-                    .min(1, "Số tầng phải lớn hơn 0")
-                    .integer("Số tầng phải là số nguyên")
-                :
-                Yup.number().notRequired(),
+        // poolArea: formatStyle.id !== 3 ?
+        //     Yup.number()
+        //         .required("Vui lòng nhập diện tích hồ bơi")
+        //         .min(20, "Diện tích bể bơi phải lớn hơn 20")
+        //     :
+        //     Yup.number().notRequired(),
+        // numberFloor:
+        //     formatStyle.id !== 3 ?
+        //         Yup.number()
+        //             .required("Vui lòng nhập số tầng")
+        //             .min(1, "Số tầng phải lớn hơn 0")
+        //             .integer("Số tầng phải là số nguyên")
+        //         :
+        //         Yup.number().notRequired(),
     }
 
     const update = async (values) => {
@@ -103,10 +103,10 @@ export function FacilityUpdate(){
 
         let status = await facilityService.updateFacility(values);
         if (status === 200) {
-            toast.success("Update successfully!");
-            navigate("/facilities");
+            toast.success("Sửa thành công!");
+            navigate("/");
         } else {
-            toast.error("Update failed!");
+            toast.error("Sửa thất bại!");
             navigate(`/facilities/update/${facility.id}`);
         }
     }
@@ -134,7 +134,7 @@ export function FacilityUpdate(){
                                 <Form>
                                     <div className="row mb-3">
                                         <label htmlFor="name" className="form-label col-sm-3">
-                                            Name
+                                            Tên
                                         </label>
                                         <div className="col-sm-9">
                                             <Field type="text" id="name" name="name" className="form-control"/>
@@ -145,7 +145,7 @@ export function FacilityUpdate(){
                                     </div>
                                     <div className="row mb-3">
                                         <label htmlFor="area" className="form-label col-sm-3">
-                                            Area
+                                            Diện tích
                                         </label>
                                         <div className="col-sm-9">
                                             <Field
@@ -161,7 +161,7 @@ export function FacilityUpdate(){
                                     </div>
                                     <div className="row mb-3">
                                         <label htmlFor="rentalType" className="form-label col-sm-3">
-                                            Rental type
+                                            Loại hình thuê
                                         </label>
                                         <div className="col-sm-9">
                                             <Field
@@ -171,11 +171,11 @@ export function FacilityUpdate(){
                                                 name="rentalType"
                                                 id="rentalType"
                                             >
-                                                <option defaultValue="">--Select--</option>
-                                                <option value="hours">Hours</option>
-                                                <option value="day">Day</option>
-                                                <option value="month">Month</option>
-                                                <option value="year">Year</option>
+                                                <option defaultValue="">--Lựa chọn--</option>
+                                                <option value="hours">Giờ</option>
+                                                <option value="day">Ngày</option>
+                                                <option value="month">Tháng</option>
+                                                <option value="year">Năm</option>
                                             </Field>
                                             <ErrorMessage name="rentalType" component="div"
                                                           className="mt-2 form-text text-danger"
@@ -184,7 +184,7 @@ export function FacilityUpdate(){
                                     </div>
                                     <div className="row mb-3">
                                         <label htmlFor="rentalCosts" className="form-label col-sm-3">
-                                            Rental costs
+                                            Chi phí thuê
                                         </label>
                                         <div className="col-sm-9">
                                             <Field type="number" id="rentalCosts" name="rentalCosts"
@@ -197,7 +197,7 @@ export function FacilityUpdate(){
                                     </div>
                                     <div className="row mb-3">
                                         <label htmlFor="capacity" className="form-label col-sm-3">
-                                            Capacity
+                                             Thể tích
                                         </label>
                                         <div className="col-sm-9">
                                             <Field type="number" id="capacity" name="capacity" className="form-control"
@@ -211,7 +211,7 @@ export function FacilityUpdate(){
                                         facility.facilityType.id === 3 ?
                                             <div className="row mb-3">
                                                 <label className="form-label col-sm-3">
-                                                    Free Service
+                                                    3 dịch vụ
                                                 </label>
                                                 <div className="col-sm-9">
 
@@ -266,16 +266,16 @@ export function FacilityUpdate(){
                                                             name="roomStandards"
                                                             id="roomStandards"
                                                         >
-                                                            <option value="Superior">Superior</option>
-                                                            <option value="Deluxe">Deluxe</option>
-                                                            <option value="Suite">Suite</option>
-                                                            <option value="Presidential">President</option>
+                                                            <option value="Superior">Thượng đẳng</option>
+                                                            <option value="Deluxe">Sang Trọng</option>
+                                                            <option value="Suite">Thượng hạng</option>
+                                                            <option value="Presidential">Tổng thống</option>
                                                         </Field>
                                                     </div>
                                                 </div>
                                                 <div className="row mb-3">
                                                     <label className="form-label col-sm-3">
-                                                        Other Utilities
+                                                        Khác
                                                     </label>
                                                     <div className="col-sm-9">
                                                         {

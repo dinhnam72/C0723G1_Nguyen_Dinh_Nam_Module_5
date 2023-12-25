@@ -1,0 +1,23 @@
+.header{
+    height: 100px;
+    background: #a0d8ee;
+}
+
+.header img{
+    height: 80px;
+}
+
+.header ul li a {
+    font-weight: inherit;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.nav-link.active-cus{
+    color: red;
+}
+
+.nav-link.hover:hover{
+    color: red;
+    transform: scale(1.1);
+}

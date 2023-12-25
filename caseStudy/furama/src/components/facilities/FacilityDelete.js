@@ -4,10 +4,10 @@ export function FacilityDelete({idDelete, nameDelete, setFacilities}){
     const handleDelete = async () => {
         let status = await facilityService.deleteFacility(idDelete);
         if (status===200){
-            toast.success(`Delete facility ${nameDelete} successfully!`);
+            toast.success(`Xóa ${nameDelete} thành công!`);
             setFacilities(await facilityService.getAllFacility(""));
         } else {
-            toast.error(`Delete contract ${nameDelete} failed!`);
+            toast.error(` Xóa ${nameDelete} thất bại!`);
         }
     }
     return(
