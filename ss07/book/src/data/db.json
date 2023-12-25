@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "type": "Truyen Ma"
+    },
+    {
+      "id": 2,
+      "type": "Tu Tien"
+    },
+    {
+      "id": 3,
+      "type": "Trinh Tham"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Ong Tho",
+      "quantity": 50,
+      "categories": {
+        "id": 1,
+        "type": "Truyen Ma"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Dau La Dai Luc",
+      "quantity": 40,
+      "categories": {
+        "id": 2,
+        "type": "Tu Tien"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Conan",
+      "quantity": 100,
+      "categories": {
+        "id": 3,
+        "type": "Trinh Tham"
+      }
+    },
+    {
+      "title": "fddg",
+      "quantity": 12,
+      "categories": {
+        "id": 2,
+        "type": "Tu Tien"
+      },
+      "id": 5
+    }
+  ]
+}
