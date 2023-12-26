@@ -25,7 +25,7 @@
     },
     {
       "id": 2,
-      "title": "Dau La Dai Luc",
+      "title": "Dau La Dai Luc Phan 2",
       "quantity": 40,
       "categories": {
         "id": 2,
@@ -35,20 +35,56 @@
     {
       "id": 3,
       "title": "Conan",
-      "quantity": 100,
+      "quantity": 101,
       "categories": {
         "id": 3,
         "type": "Trinh Tham"
       }
     },
     {
-      "title": "fddg",
-      "quantity": 12,
+      "title": "Dau Pha Thuong Khung",
+      "quantity": 109,
       "categories": {
         "id": 2,
         "type": "Tu Tien"
       },
+      "id": 4
+    },
+    {
+      "title": "Bai Dat Hoang Sau Nha",
+      "quantity": 4,
+      "categories": {
+        "id": 1,
+        "type": "Truyen Ma"
+      },
       "id": 5
+    },
+    {
+      "title": "Dau Pha Thuong Khung",
+      "quantity": 1000,
+      "categories": {
+        "id": 2,
+        "type": "Tu Tien"
+      },
+      "id": 6
+    },
+    {
+      "title": "rgd",
+      "quantity": 2,
+      "categories": {
+        "id": 2,
+        "type": "Tu Tien"
+      },
+      "id": 7
+    },
+    {
+      "title": "dfbdg",
+      "quantity": 2,
+      "categories": {
+        "id": 2,
+        "type": "Tu Tien"
+      },
+      "id": 8
     }
   ]
 }

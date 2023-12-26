@@ -22,6 +22,21 @@ export const createBook = async (book)=>{
         return [];
     }
 }
+export const getBookById = async (id)=>{
+    try {
+        return await axios.get("http://localhost:8080/books/"+id);
+    }catch (e){
+        return [];
+    }
+}
+
+export const updateBook = async (book)=>{
+    try {
+        return await axios.patch("http://localhost:8080/books/"+book.id,book);
+    }catch (e){
+        return [];
+    }
+}
 export const deleteBook = async (id)=>{
     try {
         return await axios.delete(`http://localhost:8080/books/${id}`);
