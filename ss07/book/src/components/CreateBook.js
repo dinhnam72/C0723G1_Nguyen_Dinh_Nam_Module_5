@@ -14,9 +14,13 @@ export function CreateBook() {
     }, []);
 
     const getAllCategory = async () => {
-        const res = await bookService.getAllCategory();
-        setCategories(res.data);
-        return (res.data);
+        try {
+            const res = await bookService.getAllCategory();
+            setCategories(res.data);
+        } catch (e) {
+            navigate("/error")
+        }
+
     }
 
     const initValue = {
@@ -36,16 +40,19 @@ export function CreateBook() {
     const createValue = async (value) => {
         value.quantity = +value.quantity;
         value.categories = JSON.parse(value.categories);
-        const res = await bookService.createBook(value);
-        console.log(res)
-        if (res.status === 201) {
-            toast.success("Them sach thanh cong!");
-            navigate("/")
-        } else {
-            toast.error("Them sach that bai!");
-            navigate("/create")
+        try {
+            const res = await bookService.createBook(value);
+            console.log(res)
+            if (res.status === 201) {
+                toast.success("Them sach thanh cong!");
+                navigate("/")
+            } else {
+                toast.error("Them sach that bai!");
+                navigate("/create")
+            }
+        } catch (e) {
+            navigate("/error")
         }
-
     }
 
     return (

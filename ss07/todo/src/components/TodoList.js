@@ -11,12 +11,16 @@ export function TodoList() {
 
     useEffect(() => {
         getAllTodo();
-    }, [todoList]);
+    }, []);
     const getAllTodo = async () => {
-        const res = await todoService.getAllTodo();
-        console.log(res.data)
-        setTodoList(res.data)
-        return (res.data);
+        try {
+            const res = await todoService.getAllTodo();
+            console.log(res.data)
+            setTodoList(res.data)
+        }catch (e) {
+            navigate("/error")
+        }
+
     }
     const initValue = {
         title:""
@@ -30,14 +34,19 @@ export function TodoList() {
 
     const create = async (value) =>{
         console.log(value)
-        const res = await todoService.createTodo(value);
-        if (res.status===201){
-            toast.success("Thêm mới thành công!");
-            navigate("/")
-        }else {
-            toast.error(" Thêm mới thất bại!");
-            navigate("/")
+        try {
+            const res = await todoService.createTodo(value);
+            if (res.status===201){
+                toast.success("Thêm mới thành công!");
+                navigate("/")
+            }else {
+                toast.error(" Thêm mới thất bại!");
+                navigate("/")
+            }
+        }catch (e) {
+            navigate("/error")
         }
+
     }
 
     return (

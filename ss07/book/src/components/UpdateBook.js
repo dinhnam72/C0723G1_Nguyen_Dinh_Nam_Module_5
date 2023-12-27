@@ -20,14 +20,24 @@ export function UpdateBook(){
 
 
     const getAllCategory = async () => {
-        const res = await bookService.getAllCategory();
-        setCategories(res.data);
+        try {
+            const res = await bookService.getAllCategory();
+            setCategories(res.data);
+        }catch (e){
+            navigate("/error")
+        }
+
     }
 
     const getBookById = async () => {
-        const res = await bookService.getBookById(id);
-        console.log(res.data)
-        setBook(res.data);
+        try {
+            const res = await bookService.getBookById(id);
+            console.log(res.data)
+            setBook(res.data);
+        }catch (e){
+            navigate("/error")
+        }
+
 
     }
     if (!book){
@@ -52,14 +62,18 @@ export function UpdateBook(){
         console.log(value)
         value.quantity = +value.quantity;
         value.categories = JSON.parse(value.categories);
-        const res = await bookService.updateBook(value);
-        console.log(res)
-        if (res.status===200){
-            toast.success("Sua sach thanh cong!");
-            navigate("/")
-        }else {
-            toast.error("Sua sach that bai!");
-            navigate(`/update/${value.id}`)
+        try {
+            const res = await bookService.updateBook(value);
+            console.log(res)
+            if (res.status===200){
+                toast.success("Sua sach thanh cong!");
+                navigate("/")
+            }else {
+                toast.error("Sua sach that bai!");
+                navigate(`/update/${value.id}`)
+        }
+        }catch (e){
+            navigate("/error")
         }
 
     }

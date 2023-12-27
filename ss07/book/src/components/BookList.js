@@ -3,21 +3,30 @@ import * as bookService from "../service/bookService";
 import {NavLink} from "react-router-dom";
 import {toast} from "react-toastify";
 import {Field, Formik} from "formik";
+import {useNavigate} from "react-router-dom";
 
 
 export function BookList(){
     const [books, setBooks] = useState([]);
     const [idDelete, setIdDelete] = useState("");
     const [nameDelete, setNameDelete] = useState("");
+    const [searchName, setSearchName] = useState("")
+    const navigate = useNavigate();
 
     useEffect(() => {
         getAllBook();
-    }, [books]);
+    }, [searchName]);
 
 
     const getAllBook= async ()=>{
-        const res = await bookService.getAllBook();
-        setBooks(res.data)
+        try {
+            const res = await bookService.getAllBook(searchName);
+            setBooks(res.data)
+        }catch (e){
+            navigate("/error");
+        }
+
+
     }
 
     const showModal=(id,name)=>{
@@ -25,18 +34,27 @@ export function BookList(){
         setNameDelete(name);
     }
     const handelDelete= async ()=>{
-        const res =await bookService.deleteBook(idDelete);
-        if (res.status===200){
-            toast.success("Xoa thanh cong!")
-        }else {
-            toast.error("Xoa that bai")
+        try {
+            const res =await bookService.deleteBook(idDelete);
+            if (res.status===200){
+                toast.success("Xoa thanh cong!")
+            }else {
+                toast.error("Xoa that bai")
+            }
+        }catch (e){
+            navigate("/error");
         }
+
     }
     return(
         <>
             <div className="container">
                 <h2 className="text-center fw-bold mt-3 mb-3">Danh Sach</h2>
                <NavLink to="/create" className="btn btn-success mb-3">Them moi sach</NavLink>
+
+                <input name="searchname" className="w-25 form-control mb-3"
+                 onChange={(event)=>{setSearchName(event.target.value)}}
+                />
                 <table className="table table-hover">
                     <thead className="table-primary">
                     <tr>
